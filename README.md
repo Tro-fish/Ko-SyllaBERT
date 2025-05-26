@@ -27,7 +27,9 @@ pip install -r requirements.txt
 ```
 ## 2. Syllable Model Pretraining
 ### Pretrain
-Pretrain the syllable model
+To pretrain the syllable-based model, prepare a single .txt file containing your training data (e.g., data/pretrain_example.txt).
+
+Run the following script to start pretraining:
 ```bash
 bash ./syllable_pretrain.sh
 ```
@@ -44,6 +46,7 @@ python add_noise.py \
 ### Post-train model
 Post-training to make a noise-robust model
 (Modify config settings appropriately)
+
 ```bash
 bash ./noisy_post_train.sh
 ```
