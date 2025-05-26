@@ -1,6 +1,17 @@
-# SyllaBERT
+# Ko-SyllaBERT
 
-This project involves generating a synthetic noisy dataset and post-training a model.
+A official implementation of **generating a synthetic noisy dataset** and **post-training a model**, as introduced in our paper:
+
+> **Ko-SyllaBERT: A Syllable-Based Efficient and Robust Korean Language Model for Real-World Noise and Typographical Errors** 
+---
+
+## Methodology Overview
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/fb773a60-5bb3-4ef3-8172-6a9308355f3f" width="100%" alt="Framework overview"/>
+</div>
+
+Overview of the Ko-SyllaBERT training pipeline. The model is trained in two stages. In Stage 1 (Pre-training), an efficient syllable vocabulary is constructed and used to train a lightweight BERT model with reduced token embedding and hidden sizes. In Stage 2 (Post-training), the model is further trained on synthetically generated Korean noisy data with typographical errors to enhance robustness in real-world settings.
 
 ---
 
