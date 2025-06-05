@@ -1,6 +1,6 @@
 # Ko-SyllaBERT
 
-A official implementation of **generating a synthetic noisy dataset** and **post-training a model**, as introduced in our paper:
+A official implementation of **generating a synthetic noisy dataset** and **post-training a model**, as introduced in our paper: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12109170
 
 > **Ko-SyllaBERT: A Syllable-Based Efficient and Robust Korean Language Model for Real-World Noise and Typographical Errors** 
 ---
